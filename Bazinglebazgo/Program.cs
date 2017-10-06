@@ -10,7 +10,9 @@ namespace Bazinglebazgo
     {
         static void Main(string[] args)
         {
-           
+            GameMechanics testThisSucker = new GameMechanics();
+            testThisSucker.ChooseYourChallenger();
+
         }
     }
 }

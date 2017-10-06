@@ -14,6 +14,7 @@ namespace Bazinglebazgo
         //member methods
         public void MatchUpWinner()
         {
+
             switch ()
             {
                 case : //r vs p
@@ -96,5 +97,5 @@ namespace Bazinglebazgo
                     Console.WriteLine("Player 1 wins!")
                     break;
             }
-    }
+        }
 }

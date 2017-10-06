@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace Bazinglebazgo
 {
-    class HumanPlayer
+    class HumanPlayer : Player
     {
+        //member variables
+        //constructor
+        //member methods
+        string MakeChoice()
+        {
+            Console.WriteLine("Please choose from \"Rock\", \"Paper\", \"Scissors\", \"Lizard\", or \"Spock\"");
+            choice = Console.ReadLine();
+            return choice;
+
+        }
+        
     }
 }

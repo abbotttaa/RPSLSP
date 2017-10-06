@@ -1,1 +1,6 @@
 C:\Users\abbot\Desktop\All\DevCodeCamp\C#\Examples\Bazinglebazgo\Bazinglebazgo\bin\Debug\Bazinglebazgo.exe.config
+C:\Users\abbot\Desktop\All\DevCodeCamp\C#\Examples\Bazinglebazgo\Bazinglebazgo\obj\Debug\Bazinglebazgo.csprojResolveAssemblyReference.cache
+C:\Users\abbot\Desktop\All\DevCodeCamp\C#\Examples\Bazinglebazgo\Bazinglebazgo\bin\Debug\Bazinglebazgo.exe
+C:\Users\abbot\Desktop\All\DevCodeCamp\C#\Examples\Bazinglebazgo\Bazinglebazgo\bin\Debug\Bazinglebazgo.pdb
+C:\Users\abbot\Desktop\All\DevCodeCamp\C#\Examples\Bazinglebazgo\Bazinglebazgo\obj\Debug\Bazinglebazgo.exe
+C:\Users\abbot\Desktop\All\DevCodeCamp\C#\Examples\Bazinglebazgo\Bazinglebazgo\obj\Debug\Bazinglebazgo.pdb
