@@ -8,5 +8,15 @@ namespace Bazinglebazgo
 {
     class ComputerPlayer : Player
     {
+        //member variables
+        //constructor
+        //member methods
+        public override string MakeChoice()
+        {
+            Console.WriteLine("Please choose from \"Rock\", \"Paper\", \"Scissors\", \"Lizard\", or \"Spock\"");
+            choice = Console.ReadLine();
+            return choice;
+
+        }
     }
 }

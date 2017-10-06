@@ -11,13 +11,12 @@ namespace Bazinglebazgo
         //member variables
         //constructor
         //member methods
-        string MakeChoice()
+        public override string MakeChoice()
         {
             Console.WriteLine("Please choose from \"Rock\", \"Paper\", \"Scissors\", \"Lizard\", or \"Spock\"");
             choice = Console.ReadLine();
             return choice;
 
         }
-        
     }
 }

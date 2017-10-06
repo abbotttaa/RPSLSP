@@ -46,8 +46,6 @@
     <Compile Include="ComputerPlayer.cs" />
     <Compile Include="GameMechanics.cs" />
     <Compile Include="HumanPlayer.cs" />
-    <Compile Include="MatchUpCalc.cs" />
-    <Compile Include="MatchUpChart.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

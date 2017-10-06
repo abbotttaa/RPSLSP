@@ -12,7 +12,7 @@ namespace Bazinglebazgo
         {
             GameMechanics testThisSucker = new GameMechanics();
             testThisSucker.ChooseYourChallenger();
-
+            testThisSucker.StartPlaying();
         }
     }
 }

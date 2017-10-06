@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Bazinglebazgo
 {
-    class Player
+   abstract class Player
     {
         //member variables
         double bo3SetCount;
         public string choice;
         //constructor
         //member methods
+         public abstract string MakeChoice();
     }
 }
