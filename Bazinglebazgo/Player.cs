@@ -9,7 +9,6 @@ namespace Bazinglebazgo
    abstract class Player
     {
         //member variables
-        double bo3SetCount;
         public string choice;
 
         //constructor

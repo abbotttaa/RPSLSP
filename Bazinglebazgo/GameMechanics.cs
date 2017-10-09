@@ -22,7 +22,7 @@ namespace Bazinglebazgo
         //member methods
         public void ExplainGame()
         {
-            Console.WriteLine("Rock paper scissors lizard spock! Regular RPS, with addition of Lizard, and Spock (Lizard beats paper and Spock, while Spock beats rock and scissors.)");
+            Console.WriteLine("Rock paper scissors lizard Spock! Regular RPS, with addition of Lizard, and Spock. \n (Lizard beats paper and Spock, while Spock beats rock and scissors.)");
         }
         public void ChooseYourChallenger()
         {

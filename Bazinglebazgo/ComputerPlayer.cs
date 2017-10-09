@@ -10,7 +10,6 @@ namespace Bazinglebazgo
     {
         
         //member variables
-        public int RandomNumber;
         Random random = new Random();
         //constructor
         //member methods
@@ -26,8 +25,12 @@ namespace Bazinglebazgo
                     return "Scissors";
                 case 4:
                     return "Lizard";
-                default:
+                case 5:
                     return "Spock";
+                default:
+                    return "Unreachable outcome";
+                    
+                    
                                  
                 
             }

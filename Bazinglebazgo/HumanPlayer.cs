@@ -13,10 +13,24 @@ namespace Bazinglebazgo
         //member methods
         public override string MakeChoice()
         {
-            Console.WriteLine("Please choose from \"Rock\", \"Paper\", \"Scissors\", \"Lizard\", or \"Spock\"");
+            Console.WriteLine("Please choose from \"Rock\", \"Paper\", \"Scissors\", \"Lizard\", or \"Spock\"");            
             choice = Console.ReadLine();
-            return choice;
-
+            switch (choice)
+            {
+                case "Rock":
+                    return choice;                   
+                case "Paper":
+                    return choice;
+                case "Scissors":
+                    return choice;
+                case "Lizard":
+                    return choice;
+                case "Spock":
+                    return choice;
+                default:
+                    Console.WriteLine("No, dummy, you need to enter \"Rock\", \"Paper\", \"Scissors\", \"Lizard\", or \"Spock\"");
+                    return MakeChoice();
+            }
         }
     }
 }
