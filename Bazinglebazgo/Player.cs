@@ -11,6 +11,7 @@ namespace Bazinglebazgo
         //member variables
         double bo3SetCount;
         public string choice;
+
         //constructor
         //member methods
          public abstract string MakeChoice();

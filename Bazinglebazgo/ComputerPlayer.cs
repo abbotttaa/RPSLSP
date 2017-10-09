@@ -8,15 +8,29 @@ namespace Bazinglebazgo
 {
     class ComputerPlayer : Player
     {
+        
         //member variables
+        public int RandomNumber;
+        Random random = new Random();
         //constructor
         //member methods
-        public override string MakeChoice()
+        override public string  MakeChoice()
         {
-            Console.WriteLine("Please choose from \"Rock\", \"Paper\", \"Scissors\", \"Lizard\", or \"Spock\"");
-            choice = Console.ReadLine();
-            return choice;
-
-        }
+            int RandomPick = random.Next(1, 5);         
+            switch (RandomPick) {
+                case 1:
+                    return "Rock";
+                case 2:
+                    return "Paper";
+                case 3:
+                    return "Scissors";
+                case 4:
+                    return "Lizard";
+                default:
+                    return "Spock";
+                                 
+                
+            }
+        }            
     }
 }

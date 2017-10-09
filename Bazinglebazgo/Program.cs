@@ -13,6 +13,9 @@ namespace Bazinglebazgo
             GameMechanics testThisSucker = new GameMechanics();
             testThisSucker.ChooseYourChallenger();
             testThisSucker.StartPlaying();
+            testThisSucker.KeepScore();
+            testThisSucker.ProclaimVictor();
+            Console.ReadLine();
         }
     }
 }
